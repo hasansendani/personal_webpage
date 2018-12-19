@@ -7,13 +7,14 @@ html, body {
     background-image: linear-gradient(
         rgba(23, 26, 29, 0.85), 
         rgba(23, 26, 29, 0.85)
-      ),url('/Users/hasansendani/Desktop/home1.jpg') ;
-    height: 80%;
-    min-height: 768px;
+      ),url('./images/home1.jpg') ;
+    /* height: 80%; */
+    min-height: 80%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: fixed;
-    /* position: absolute; */
+    max-height: 100%;
+    
 }
 
 .intro-name{
