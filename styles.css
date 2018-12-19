@@ -1,0 +1,66 @@
+html, body {
+    height:100%;
+    margin: 0;
+} 
+
+.intro{
+    background-image: linear-gradient(
+        rgba(23, 26, 29, 0.85), 
+        rgba(23, 26, 29, 0.85)
+      ),url('/Users/hasansendani/Desktop/home1.jpg') ;
+    height: 80%;
+    min-height: 768px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: fixed;
+    /* position: absolute; */
+}
+
+.intro-name{
+    font-size: 50px;
+    color: #FFF;
+    margin: 0 0 0px 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    line-height: 77px;
+    text-transform: initial;
+    margin-bottom: 50px;
+    line-height: 100px;
+}
+.intro-bio{
+    font-family: 'Open Sans', sans-serif;
+    color: #B1B1B1;
+    margin: 0 0 50px 0;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: normal;
+}
+
+.intro-icons-box{
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: rgb(117, 117, 117);
+    border-width: 1px;
+    justify-content:center; 
+    align-items:center;
+    text-align: center;
+    align-items: center;
+    margin:5px;
+    display: inline-block;
+}
+
+.intro-icons{
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    margin-top:25%;
+    width: 50%;
+    height: 50%;
+}
+.intro-icons-box:hover .intro-icons{
+    -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(0%);
+}
+
